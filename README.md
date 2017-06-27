@@ -1,2 +1,2 @@
-# github.io
-all projects for EPAM
+
+all projects for EPAM here: https://tserkovna.github.io/github.io/
