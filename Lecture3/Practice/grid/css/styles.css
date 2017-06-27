@@ -1,0 +1,123 @@
+.grid-container {
+	display: grid;
+	grid-template-rows: [row1-start] 15% [row1-end row2-start] 85% [row2-end];
+	grid-template-columns: 20% auto 15%;
+	grid-template-areas: 
+    	"nav header header" 
+    	"nav main aside";
+    grid-column-gap: 15px;
+  	grid-row-gap: 15px;
+  	justify-items: stretch;
+  	align-items: stretch;
+	padding: 15px;
+	height: 100vh;
+	text-align: center;
+	color: #FFF;
+	background-color: #1E90FF;
+	font-size: 30pt;
+	border: solid 2px #FFF;
+	border-radius: 10px;
+}
+
+header {
+  grid-area: header;
+  align-self: center;
+  border:solid 2px #FFF;
+  border-radius: 10px;
+}
+
+header>p {
+	margin: 20px;
+}
+
+nav {
+  grid-area: nav;
+  border:solid 2px #FFF;
+  border-radius: 10px;
+  font-size: 25pt;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 10px;
+	padding: 0;
+}
+
+ul p {
+	margin: 0;
+}
+
+.ul-two {
+	border: solid 2px #FFF;
+	border-radius: 10px;
+	padding-bottom: 30px;
+}
+
+nav ul li {
+	margin: 10px;
+	border: solid 2px #FFF;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+aside {
+  grid-area: aside;
+  border: solid 2px #FFF;
+  border-radius: 10px;
+}
+
+.main {
+  grid-area: main;
+  border: dotted 2px #FFF;
+  border-radius: 10px;
+  display: grid;
+  grid-template-rows: [row1-start] auto [row1-end row2-start] auto [row2-end row3-start] 20% [row3-end];
+  grid-template-columns: auto auto;
+  grid-template-areas: 
+    	"img-container img-container" 
+    	"article-one article-two"
+    	"footer footer";
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+}
+
+.img-container{
+  grid-area: img-container;
+  border: solid 2px #FFF;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.img-container p {
+  	border: solid 2px #FFF;
+  	border-radius: 10px;
+  	padding: 5px;
+  	font-size: 25pt;
+}
+
+.img-container>article {
+  	display: inline-block;
+  	text-align: center;
+}
+
+
+.article-one {
+  grid-area: article-one;
+  border: solid 2px #FFF;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.article-two {
+  grid-area: article-two;
+  border: solid 2px #FFF;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+footer {
+  grid-area: footer;
+  border: solid 2px #FFF;
+  border-radius: 10px;
+  margin: 10px;
+}
