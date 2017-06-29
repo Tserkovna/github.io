@@ -1,0 +1,115 @@
+$background: null !default;
+$bodyFont: null !default;
+$fontColor: null !default;
+$contentBackground: null !default;
+$contentH1FontColor: null !default;
+$contentH2FontColor: null !default;
+$h2FontStyle: null !default; 
+$imgBorder: null !default; 
+$imgPadding: null !default; 
+$briefBackground: null !default; 
+$briefWidth: null !default;  
+$hrefColor: null !default; 
+$tableWidth: null !default; 
+$thBackground: null !default;
+$thBorderLeft: null !default;
+$trBackground: null !default;
+$trBorderBottom: null !default;
+
+
+
+* {
+	margin: 0;
+}
+
+body {
+	background: $background;
+	font: $bodyFont;
+	color: $fontColor;
+}
+
+#content {
+	margin: 10px 10vw;
+	padding: 30px;
+	background-color: $contentBackground;
+
+	h1 {
+		color: $contentH1FontColor;
+		padding: 5px 0 20px 0;
+	}
+
+	h2 {
+		font-style: $h2FontStyle;
+		color: $contentH2FontColor;
+		padding: 40px 0 20px 0;
+	}
+
+	img {
+		border: $imgBorder;
+		padding: $imgPadding;
+	}
+
+	.img-left {
+		float: left;
+		margin: 5px 20px 20px 0;
+	}
+
+	.brief {
+		background-color: $briefBackground;
+		font-style: italic;
+		font-weight: bold;
+		padding: 20px;
+		float: left;
+		width: $briefWidth;
+		margin: 5px 20px 20px 0;
+		line-height: 14px;
+	}
+
+	.img-right {
+		float: right;
+		margin: 5px 0 20px 20px;
+	}
+
+	a {
+		color: $hrefColor;
+		display: inline-block;
+		margin-top: 15px;
+	}
+
+	table {
+		margin: 30px 0 10px 0;
+		
+		width: $tableWidth;
+		border-collapse: collapse;
+
+		& > caption {
+			font-style:italic;
+			text-align: right;
+			font-size: 14px;
+		}
+
+		tr {
+			background-color: $trBackground;
+			border-bottom: $trBorderBottom;
+		}
+
+		tr:first-child {
+			border-bottom: none;
+		}
+
+		th, td {
+			padding: 10px 15px;
+		}
+
+		th {
+			background-color: $thBackground;
+			border-left: $thBorderLeft;
+			text-align: left;
+		}
+
+		th:first-child {
+			border-left: none;
+		}
+	}
+}
+

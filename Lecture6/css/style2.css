@@ -1,0 +1,61 @@
+* {
+  margin: 0; }
+
+body {
+  background: #659A01;
+  font: normal 15px/20px Georgia, "Times New Roman", Times, serif;
+  color: #FFF; }
+
+#content {
+  margin: 10px 10vw;
+  padding: 30px;
+  background-color: #666701; }
+  #content h1 {
+    color: #F6C509;
+    padding: 5px 0 20px 0; }
+  #content h2 {
+    color: #f7cb22;
+    padding: 40px 0 20px 0; }
+  #content img {
+    border: solid 1px #FFF;
+    padding: 10px; }
+  #content .img-left {
+    float: left;
+    margin: 5px 20px 20px 0; }
+  #content .brief {
+    background-color: #677D01;
+    font-style: italic;
+    font-weight: bold;
+    padding: 20px;
+    float: left;
+    margin: 5px 20px 20px 0;
+    line-height: 14px; }
+  #content .img-right {
+    float: right;
+    margin: 5px 0 20px 20px; }
+  #content a {
+    color: #FFCB05;
+    display: inline-block;
+    margin-top: 15px; }
+  #content table {
+    margin: 30px 0 10px 0;
+    width: 100%;
+    border-collapse: collapse; }
+    #content table > caption {
+      font-style: italic;
+      text-align: right;
+      font-size: 14px; }
+    #content table tr {
+      background-color: #677D01;
+      border-bottom: solid 1px #B4BF83; }
+    #content table tr:first-child {
+      border-bottom: none; }
+    #content table th, #content table td {
+      padding: 10px 15px; }
+    #content table th {
+      background-color: #94A34E;
+      text-align: left; }
+    #content table th:first-child {
+      border-left: none; }
+
+/*# sourceMappingURL=style2.css.map */
