@@ -1,0 +1,52 @@
+.navbar .nav > li > a:hover {
+  background-color: #2A74BF;
+  color: #FFF; }
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover {
+  background-color: #2A74BF;
+  color: #FFF; }
+
+main h1 {
+  color: #2A74BF;
+  font-weight: bold; }
+main hr {
+  border-top: 1px solid #2A74BF;
+  margin: 0; }
+main .img-responsive {
+  min-width: 100%; }
+main h3 {
+  color: #2A74BF;
+  font-weight: bold; }
+
+.yoga-section {
+  padding: 20px 0 30px 0; }
+
+.related-classes-section {
+  padding: 20px 0 30px 0; }
+  .related-classes-section .col {
+    margin: 10px 0; }
+  .related-classes-section .figure .figure-caption {
+    margin: 10px 0;
+    color: #FFF; }
+  .related-classes-section .kickboxing-info {
+    background-color: #D7514C;
+    border: 1px solid #D7514C; }
+  .related-classes-section .fitness-info {
+    background-color: #2A74BF;
+    border: 1px solid #2A74BF; }
+  .related-classes-section .zumba-info {
+    background-color: #D8C11D;
+    border: 1px solid #D8C11D; }
+  .related-classes-section .bootcamp-info {
+    background-color: #4D944B;
+    border: 1px solid #4D944B; }
+
+.page-footer {
+  background-color: #666;
+  color: #FFF;
+  height: 40px;
+  display: flex;
+  align-items: center; }
+  .page-footer .footer-container {
+    margin-left: 20px; }
+
+/*# sourceMappingURL=styles.css.map */

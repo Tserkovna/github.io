@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EPAM</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+  </head>
+  <body>
+    <!-- I have tried to add class page-header, but it give top-bottom margins-->
+    <header>  
+      <nav class="navbar navbar-default">
+        <div class="container-fluid container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Brand"></a>
+          </div>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active">
+                <a href="#">Classes</a>
+              </li>
+              <li>  
+                <a href="#">About us</a>
+              </li>
+              <li>  
+                <a href="#">Contacts</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <main>
+        <h1>Yoga Pilates</h1>
+        <hr>
+        <div class="row yoga-section">
+
+          <div class="col-md-8">
+            <img class="img-responsive" src="img/yoga.jpg" alt="Yoga">
+          </div>
+
+          <div class="col-md-4">
+            <h3>Class description</h3>
+            <p>
+              This workout uses a series of exercise routines designed to increase your core strength & improve your posture, energy, & flexibility. Pilates work is powered by breath, flow, & centering. By focusing on the mind-body connection & using more efficient form, this workout helps develop a stronger, leaner, healthier body. Appropriate for all fitness levels.
+            </p>
+            <ul>
+              <li>One Personal Trainer</li>
+              <li>Big gym space for training</li>
+              <li>Free tools & props</li>
+              <li>Free locker</li>
+              <li>Free before / after shower</li>
+            </ul>
+          </div>
+
+        </div>
+        <h3>Related classes</h3>
+        <hr>
+        <div class="row related-classes-section">
+
+          <div class="col-md-3 col-sm-3 col-xs-6 wrapper col">
+            <figure class="figure kickboxing-info">
+              <img src="img/cardio-kickbox.jpg" class="figure-img img-fluid img-responsive" alt="cardio kickboxing">
+              <figcaption class="figure-caption text-center">Cardio kickboxing</figcaption>
+            </figure>  
+          </div>
+
+          <div class="col-md-3 col-sm-3 col-xs-6 wrapper col">
+            <figure class="figure fitness-info">
+              <img src="img/fitness.jpg" class="figure-img img-fluid img-responsive" alt="fitness">
+              <figcaption class="figure-caption text-center">Fitness xpress</figcaption>
+            </figure>  
+          </div>
+
+          <div class="col-md-3 col-sm-3 col-xs-6 wrapper col">
+            <figure class="figure zumba-info">
+              <img src="img/zumba.jpg" class="figure-img img-fluid img-responsive" alt="zumba">
+              <figcaption class="figure-caption text-center">Zumba</figcaption>
+            </figure>  
+          </div>
+
+          <div class="col-md-3 col-sm-3 col-xs-6 wrapper col">
+            <figure class="figure bootcamp-info">
+              <img src="img/bootcamp.jpg" class="figure-img img-fluid img-responsive" alt="bootcamp">
+              <figcaption class="figure-caption text-center">Bootcamp</figcaption>
+            </figure>  
+          </div>
+
+        </div>
+
+      </main>
+
+      <!-- When I have added class container, text was in center in mobile version -->
+      <footer class="page-footer">
+      <div class="footer-container">
+        <p class="footer-copy">
+          &copy; Epam Front-end lab, 2016
+        </p> 
+        </div>
+      </footer>
+    </div>
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
