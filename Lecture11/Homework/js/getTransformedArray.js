@@ -12,8 +12,6 @@ function increment(num) {
 	return num + 1;
 } 
 
-forEach( getTransformedArray( [1, 7, 20], increment ), function(el) { 
-	console.log(el); 
-}); 
+console.log( getTransformedArray( [1, 7, 20], increment ));
 
 

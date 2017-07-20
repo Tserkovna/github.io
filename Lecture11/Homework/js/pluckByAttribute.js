@@ -10,6 +10,4 @@ let presidents = [ { name: 'George', surname: 'Kush' } ,
                                { name: 'Barako', surname: 'Obaame' } ];
 
 
-forEach( pluckByAttribute( presidents, 'name' ), function(el) { 
-	console.log(el); 
-}); 
+console.log( pluckByAttribute( presidents, 'name' ));

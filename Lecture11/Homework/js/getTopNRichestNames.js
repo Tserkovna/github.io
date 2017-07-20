@@ -39,10 +39,5 @@ var people = [
   	{name: 'Zara', income: '2K'}
 ];
  
-forEach( getTopNRichestNames(2, people), function(el) { 
-	console.log(el); 
-});
-
-forEach( getTopNRichestNames(100, people), function(el) { 
-	console.log(el); 
-});  
+console.log( getTopNRichestNames(2, people));
+console.log( getTopNRichestNames(100, people));
