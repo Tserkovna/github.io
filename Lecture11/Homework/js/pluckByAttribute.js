@@ -9,5 +9,7 @@ function pluckByAttribute(array, label) {
 let presidents = [ { name: 'George', surname: 'Kush' } ,
                                { name: 'Barako', surname: 'Obaame' } ];
 
-let namesArray = pluckByAttribute( presidents, 'name' ); 
-console.log(namesArray);
+
+forEach( pluckByAttribute( presidents, 'name' ), function(el) { 
+	console.log(el); 
+}); 
