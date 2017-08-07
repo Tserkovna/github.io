@@ -48,7 +48,7 @@ Character.prototype.setHitpoints = function( value ) {
 
 Character.prototype.getAttack = function() {
 	return this.attack;
-};
+y};
 
 /**
  * @param {value} - Same rules as in the setTotalHitPoint method 
@@ -62,16 +62,19 @@ Character.prototype.isAlive = function() {
 };
 
 Character.prototype.fight = function( enemy ) {
-	if ( enemy.isAlive() === false ) {
-		console.log( 'Sorry this enemy has already died! Try to fight with anothers!' );
+	if ( enemy === this ) {
+		console.log( 'Sorry, you can\'t be your enemy!' );
 	} else {
-		if ( ( enemy.hasOwnProperty( enemy.isDefenced ) ) && ( enemy.checkDefenced === true ) ) {
+		if ( enemy.isAlive() === false ) {
+			console.log( 'Sorry this enemy has already died! Try to fight with anothers!' );
+		} else {
+			if ( ( enemy.hasOwnProperty( enemy.isDefenced ) ) && ( enemy.checkDefenced === true ) ) {
 				console.log( 'This enemy is defenced, you can\'t have fight with him!' );
 				enemy.removeDefence();
-		} else {
-			enemy.setHitpoints( enemy.getHitpoints() - this.attack );
+			} else {
+				enemy.setHitpoints( enemy.getHitpoints() - this.attack );
+			}
 		}
-
 	}
 };
 
@@ -99,7 +102,7 @@ Champion.prototype.removeDefence = function() {
 };
 
 Champion.prototype.rest = function() {
-	this.hitpoints += 5;
+	( ( this.hitpoints + 5 ) <= this.totalHitpoints ) ? this.hitpoints += 5 : this.hitpoints = this.totalHitpoints; 
 };
 
 Champion.prototype.defence = function() {
@@ -140,12 +143,6 @@ Monster.prototype.fight = function( enemy ) {
 };
 
 module.exports = {
-  Champion: Champion,
-  Monster: Monster
+	Champion: Champion,
+	Monster: Monster
 }
-
-
-
-
-
-
