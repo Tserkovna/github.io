@@ -1,0 +1,40 @@
+
+.table-img {
+	width: 250px;
+	height: 250px;
+}
+
+form {
+	padding: 10px;
+	margin-bottom: 100px;
+}
+
+input {
+	width: 100%;
+	padding: 5px 10px;
+}
+
+label {
+	margin-top: 5px;
+}
+
+input[type="submit"], input[type="reset"] {
+	width: 200px;
+	margin-top: 10px;
+	margin-left: 5px;
+	float: right;
+} 
+
+.errorMessage {
+	color: red;
+}
+
+.successMessage {
+	color: green;
+}
+
+ul li {
+	display: inline-block;
+	margin: 10px;
+}
+
