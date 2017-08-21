@@ -1,5 +1,4 @@
 const express = require( 'express' );
-const fs = require( 'fs' );
 const app = express();
 
 const bodyParser = require('body-parser')
@@ -7,7 +6,6 @@ app.use( bodyParser.json() );
 
 var user = require('./user');
 
-let filePath = __dirname + '/data.storage';
 
 app.post( '/users', user.addUser );
 

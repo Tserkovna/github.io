@@ -1,5 +1,5 @@
 const fs = require( 'fs' );
-const filePath = __dirname + '/../data.storage';
+const filePath = __dirname + '/../storage.json';
 const passwordHash = require('password-hash');
 
 

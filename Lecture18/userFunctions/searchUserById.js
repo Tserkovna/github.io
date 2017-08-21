@@ -1,5 +1,5 @@
 const fs = require( 'fs' );
-const filePath = __dirname + '/../data.storage';
+const filePath = __dirname + '/../storage.json';
 
 
 exports.searchUserById = function( req, res ){
@@ -18,7 +18,7 @@ exports.searchUserById = function( req, res ){
     	if (usr == null || usr == 'undefined') {
     		res.status(404).end();
   		} 
-  		res.status(200).send(usr);
+  		res.status(200).send( usr );
     });
 }
 
