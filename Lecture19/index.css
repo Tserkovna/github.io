@@ -1,0 +1,104 @@
+* {
+	margin: 0;
+	padding: 0;
+	color: #FFF;
+}
+
+body {
+	background-image: url(mars.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+
+.container {
+	margin: 50px 300px;
+}
+
+.isHidden {
+	display: none;
+}
+
+.textTitle {
+	font-size: 40pt;
+	text-align: center;
+}
+
+
+.temperature {
+	font-size: 120pt;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.wind, .date {
+	font-size: 30pt;
+	text-align: center;
+}
+
+.error {
+  margin: 50px 0;
+  font-size: 30pt;
+  text-align: center;
+}
+
+.navigation {
+	margin-top: 30px;
+}
+
+.navigation a{
+	font-size: 20pt;
+	text-decoration: none;
+}
+
+.previousButton {
+	float: left;
+}
+
+.nextButton {
+	float: right;
+}
+
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #D2691E;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.animate-opacity {
+  position: relative;
+  -webkit-animation-name: animateOpacity;
+  -webkit-animation-duration: 2s;
+  animation-name: animateOpacity;
+  animation-duration: 2s
+}
+
+@-webkit-keyframes animateOpacity {
+  from { opacity:0 } 
+  to { opacity:1 }
+}
+
+@keyframes animateOpacity { 
+  from{ opacity:0 } 
+  to{ opacity:1 }
+}
