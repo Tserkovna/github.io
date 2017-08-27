@@ -1,22 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+	
+}
+
+.game {
+	display: none;
+}
+
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
-	* {
-		margin: 0;
-		padding: 0;
-	}
+  	.errorMessage {
+  		display: none;
+  	}
 
-	.container {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		width: 100vw;
-		height: 100vh;
-	}
 
 	.game {
+		display: block;
 		margin: 100px;
 		width: 100%;
 		height: 100%;
