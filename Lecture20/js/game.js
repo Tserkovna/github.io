@@ -199,21 +199,27 @@ $(function(){
 	});
 
 	$( document ).on( 'touchstart', '.winButton', function() {
+		if( $( '.newGameButton' ).hasClass( 'tappedButton' ) ) {
+			$( '.newGameButton' ).removeClass( 'tappedButton' );
+		}
 		$( this ).addClass( 'tappedButton' );
 		game.winGame( $container, $stepsContainer, $secondsField, $minutesField );
 	});
 
-	$( document ).on( 'touchend', '.winButton', function() {
-		$( this ).removeClass( 'tappedButton' );
-	});
+	// $( document ).on( 'touchend', '.winButton', function() {
+	// 	$( this ).removeClass( 'tappedButton' );
+	// });
 
 	$( document ).on( 'touchstart', '.newGameButton', function() {
+		if( $( '.winButton' ).hasClass( 'tappedButton' ) ) {
+			$( '.winButton' ).removeClass( 'tappedButton' );
+		}
 		$( this ).addClass( 'tappedButton' );
 		game.startNewGame( $container, $stepsContainer, $secondsField, $minutesField );
 	});
 
-	$( document ).on( 'touchend', '.newGameButton', function() {
-		$( this ).removeClass( 'tappedButton' );
-	});
+	// $( document ).on( 'touchend', '.newGameButton', function() {
+	// 	$( this ).removeClass( 'tappedButton' );
+	// });
 
 });
