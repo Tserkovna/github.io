@@ -9,7 +9,7 @@
 	justify-content: center;
 	width: 100vw;
 	height: 100vh;
-	
+	font-family: Verdana, Geneva, sans-serif;
 }
 
 .game {
@@ -41,7 +41,7 @@
 
 	.informationBlock p {
 		font-size: 30pt;
-		color: 	#DAA520;
+		color: 	#C0C0C0;
 		margin-bottom: 10px;
 	}
 
@@ -66,9 +66,9 @@
 	}
 
 	.timeInfo span, .stepsInfo span {
-		font-size: 50pt;
+		font-size: 40pt;
 		font-weight: bold;
-		color: #DAA520;
+		color: #696969;
 		margin-left: 10px;
 	}
 
@@ -86,13 +86,13 @@
 		margin: 5px;
 		width: 200px;
 		height: 200px;
-		background-color: #8B0000;
-		color: #F0E68C;
+		background-color: #4A90E2;
+		color: #FFF;
 		border-radius: 20px;
 		display: inline-flex;
 		justify-content: center;
 		align-items: center;
-		font-size: 100pt;
+		font-size: 80pt;
 		font-weight: bold;
 		position: relative;
 	}
@@ -108,20 +108,20 @@
 		margin: 20px 0;
 		border-radius: 20px;
 		background-color: inherit;
-		border-color: #8B0000;
+		border-color: #00cccc;
 		border-width: 5px;
-		color: #8B0000;
+		color: #00cccc;
 		font-size: 40pt;
 		font-weight: bold;
 	}
 
 	.tappedButton {
-		background-color: #8B0000;
-		color: #F0E68C;
+		background-color: #00cccc;
+		color: #404040;
 	}
 
 	.tappedPuzzle {
-		box-shadow: inset 0px 0px 20px 10px #330000;
+		box-shadow: inset 0px 0px 20px 10px  #1858cd;
 	}
 
 }
