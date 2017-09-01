@@ -1,0 +1,8 @@
+{
+  "rules": {
+    "block-no-empty": null,
+    "color-no-invalid-hex": true,
+    "unit-whitelist": ["em", "rem", "%", "pt"]
+
+  }
+}
