@@ -1,4 +1,4 @@
 Installing:
 1) npm install
 Running:
-npm run build
+1) npm run build
