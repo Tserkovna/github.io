@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "name": "Liliya",
+        "surname": "Tserkovna",
+        "photo": "https://i.pinimg.com/736x/b9/ce/24/b9ce2437540445f44b16e6df6e100195--cute-baby-animals-animals-and-pets.jpg",
+        "phoneNumber": "0983129504",
+        "birthday": "12.11.1995"
+    }, 
+    {
+        "id": "2",
+        "name": "Igor",
+        "surname": "Derik",
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcwlRKAlSIaCI4W5PRYVbuBQQXifF-56bFqAjh9DMe-_3Lh8_YKw",
+        "phoneNumber": "0932489501",
+        "birthday": "22.09.1991"
+    },
+    {
+        "id": "3",
+        "name": "Roman",
+        "surname": "Kinakh",
+        "photo": "http://www.ellycarservice.com/wp-content/uploads/2017/06/gatto-trasloco.jpg",
+        "phoneNumber": "0972319472",
+        "birthday": "5.10.1996"  
+    }
+  ]

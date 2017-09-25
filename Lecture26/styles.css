@@ -1,0 +1,45 @@
+.students-button {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	font-size: 30px;
+	width: 500px;
+}
+
+.container {
+	display: flex;
+}
+
+.students {
+	padding: 10px;
+	border: 1px solid black;
+	margin: 2px;
+}
+
+.studentList-info {
+	text-align: center;
+}
+
+.studentList-img {
+	height: 200px;
+	width: 250px;
+}
+
+.student {
+	margin: 20px;
+}
+
+.student-img {
+	width: 200px;
+	height: 250px;
+}
+
+.student-info {
+	display: inline-block;
+	list-style: none;
+}
+
+.student-info li {
+	margin: 40px;
+}
+

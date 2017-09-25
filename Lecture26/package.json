@@ -1,0 +1,14 @@
+{
+  "name": "l20",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.6",
+    "express": "^4.15.5",
+    "node-modules": "^1.0.1"
+  }
+}
